@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Roboto-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+
+    <title>PHYSICS[A]</title>
+
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!------------Header----------------->
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo_2.png"> </a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">MATERI</a></li>
+                    <li><a href="">ARTIKEL</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>The Best Pal You Ever Have</h1>
+            <p>Making you amaze with how science see the world now, then, and forever</p>
+            <a href="" class="hero-btn">Visit to Discover More</a>
+        </div>
+
+    </section>
+
+    <!-----------------Materi----------------->
+    <section class="Materi">
+        <h1>Materi Pelajaran</h1>
+        <p>Materi Pelajaran SD, SMP, dan SMA yang dirangkum dan dijelaskan dengan mudah</p>
+        <div class="row">
+            <div class="materi-sd">
+                <a href="" class="materi-btn">SD
+                    <p>Kumpulan materi belajar sains untuk level sekolah menengah pertama</p>
+                </a>
+            </div>
+            <div class="materi-smp">
+                <a href="" class="materi-btn">SMP
+                    <p>Kumpulan materi belajar sains untuk level sekolah menengah pertama</p>
+                </a>
+            </div>
+            <div class="materi-sma">
+                <a href="" class="materi-btn">SMA
+                    <p>Kumpulan materi belajar sains untuk level sekolah menengah pertama</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!----------Artikel------------->
+    <section class="Artikel">
+        <h1>Artikel Sains Populer</h1>
+        <div class="container"></div>
+    </section>
+
+
+    <!-------JavaScript for Toggle Menu------->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
