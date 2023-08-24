@@ -22,7 +22,7 @@
     <!------------Header----------------->
     <section class="header">
         <nav>
-            <a href="index.html"><img src="images/logo_2.png"> </a>
+            <a href="index.html"><img src="images/logo_1.png"> </a>
             <div class="nav-links" id="navLinks">
                 <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
                 <ul>
@@ -44,7 +44,83 @@
     </section>
 
     <!-----------------Materi----------------->
-    <section class="Materi">
+    <section class="materi">
+        <h1>Materi Pelajaran</h1>
+        <p>Materi Pelajaran SD, SMP, dan SMA yang dirangkum dan dijelaskan dengan mudah</p>
+
+        <div class="row">
+            <div class="materi-col">
+                <a href=""><img src="images/h3.png">
+                    <div class="layer">
+                        <h3>SD</h3>
+                        <p1>Kumpulan materi belajar sains untuk level sekolah dasar</p1>
+                    </div>
+                </a>
+            </div>
+            <div class="materi-col">
+                <a href=""><img src="images/h4.png">
+                    <div class="layer">
+                        <h3>SMP</h3>
+                        <p1>Kumpulan materi belajar sains untuk level sekolah menengah pertama</p1>
+                    </div>
+                </a>
+            </div>
+            <div class="materi-col">
+                <a href=""><img src="images/h1.png">
+                    <div class="layer">
+                        <h3>SMA</h3>
+                        <p1>Kumpulan materi belajar sains untuk level sekolah menengah atas</p1>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!----------Artikel------------->
+
+    <section class="artikel">
+        <h1>Artikel Sains Populer</h1>
+        <p>Artikel sains menarik seputar dunia sekitar kita</p>
+        <div class="row">
+            <div class="artikel-col">
+                <a href=""><img src="images/post_4.png" height="200px" width="200px">Pengukuran Sepanjang masa
+                    <P>Seputar cerita pengukuran, besaran, dan satuan</P>
+                </a>
+            </div>
+            <div class="artikel-col">
+                <a href=""><img src="images/post_1.png" height="200px" width="200px">Pengukuran Sepanjang masa
+                    <P>Seputar cerita pengukuran, besaran, dan satuan</P>
+                </a>
+            </div>
+            <div class="artikel-col">
+                <a href=""><img src="images/post_2.png " height="200px" width="200px">Pengukuran Sepanjang masa
+                    <P>Seputar cerita pengukuran, besaran, dan satuan</P>
+                </a>
+            </div>
+            <div class="artikel-col">
+                <a href=""><img src="images/post_5.png " height="200px" width="200px">
+                    Pengukuran Sepanjang masa
+                    <P>Seputar cerita pengukuran, besaran, dan satuan</P>
+                </a>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-------JavaScript for Toggle Menu------->
+    <script>
+
+        var navLinks = document.getElementById(" navLinks"); function showMenu() { navLinks.style.right = "0"; }
+        function hideMenu() { navLinks.style.right = "-200px"; } </script>
+</body>
+
+</html>
+
+
+
+<!--
+
+    <section class="materi">
         <h1>Materi Pelajaran</h1>
         <p>Materi Pelajaran SD, SMP, dan SMA yang dirangkum dan dijelaskan dengan mudah</p>
         <div class="row">
@@ -66,26 +142,4 @@
         </div>
     </section>
 
-    <!----------Artikel------------->
-    <section class="Artikel">
-        <h1>Artikel Sains Populer</h1>
-        <div class="container"></div>
-    </section>
-
-
-    <!-------JavaScript for Toggle Menu------->
-    <script>
-
-        var navLinks = document.getElementById("navLinks");
-
-        function showMenu() {
-            navLinks.style.right = "0";
-        }
-
-        function hideMenu() {
-            navLinks.style.right = "-200px";
-        }
-    </script>
-</body>
-
-</html>
+-->
