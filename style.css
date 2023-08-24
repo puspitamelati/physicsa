@@ -249,20 +249,34 @@ p {
 .artikel-col {
     position: relative;
     flex-basis: 25%;
-    padding: 20px 12px;
+    padding: 30px 40px;
     border-radius: 10px;
     background-size: cover;
     background-position: center;
-    text-align: center;
-    font-size: 20px;
+    text-align: left;
+    font-size: 18px;
     font-weight: 600;
     cursor: pointer;
     box-sizing: border-box;
     margin-bottom: 5%;
 }
 
+.artikel-col img {
+    border-radius: 10px;
+    width: 100%;
+    border: 1px solid rgb(252, 164, 2);
+}
+
 .artikel-col a {
     text-decoration: none;
     text-decoration-line: none;
+    text-align: left;
     color: black;
+}
+
+.artikel-col p {
+    text-decoration: none;
+    text-decoration-line: none;
+    text-align: left;
+    padding: 0;
 }
