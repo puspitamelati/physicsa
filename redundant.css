@@ -1,0 +1,59 @@
+/*
+.materi-sd {
+    position: relative;
+    flex-basis: 31%;
+    padding: 20px 12px;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(236, 131, 11, 0.61), rgba(236, 131, 11, 0.61)), url(images/h3.png);
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    cursor: pointer;
+    box-sizing: border-box;
+    margin-bottom: 5%;
+}
+
+.materi-smp {
+    position: relative;
+    flex-basis: 31%;
+    padding: 20px 12px;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(236, 131, 11, 0.61), rgba(236, 131, 11, 0.61)), url(images/h4.png);
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    cursor: pointer;
+    box-sizing: border-box;
+    margin-bottom: 5%;
+}
+
+.materi-sma {
+    position: relative;
+    flex-basis: 31%;
+    padding: 20px 12px;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(236, 131, 11, 0.61), rgba(236, 131, 11, 0.61)), url(images/h1.png);
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    cursor: pointer;
+    box-sizing: border-box;
+    margin-bottom: 5%;
+}
+
+.materi-btn {
+    border: none;
+    background-color: transparent;
+    text-decoration: none;
+    color: white;
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+}
+*/
